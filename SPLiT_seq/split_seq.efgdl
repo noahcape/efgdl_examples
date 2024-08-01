@@ -1,0 +1,5 @@
+brc1 = map(b[8], $0, self)
+brc2 = filter(b[8], $0)
+brc3 = filter(b[8], $0)
+umi = u[10]
+1{r:}2{<brc1>x[22]<brc2>x[30]<brc3><umi>}

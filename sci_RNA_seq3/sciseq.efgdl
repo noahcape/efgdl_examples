@@ -1,0 +1,4 @@
+anchor = remove(f[CAGAGC])
+hp_brc = filter(b[9-10], $0)
+rt_brc = filter(b[10], $1)
+1{norm(<hp_brc>)<anchor>u[8]<rt_brc>}2{r:}
